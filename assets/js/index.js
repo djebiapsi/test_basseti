@@ -69,7 +69,11 @@ const trTempCP = document.getElementById("tempCp")
 const trMV = document.getElementById("mV")
 const trCP = document.getElementById("cp")
 
-
+/**
+ * Fonction déclanché au clic sur une piece
+ * @param {number} id 
+ * 
+ */
 async function infoMat(id) {
     json2object(fileMaterials).then((mats) => {
         material = null
@@ -97,7 +101,7 @@ async function infoMat(id) {
             coeffPoisson = assosciateArray(coeffPoisson[0].Temperature,coeffPoisson[1].nuX)
             //affichage des variable
             displayValue(trTempCP, trCP, coeffPoisson)
-            displayValue(trTempMV, trMV, mV, )
+            displayValue(trTempMV, trMV, mV)
 
         }
     })
@@ -108,6 +112,7 @@ async function infoMat(id) {
 json2object(filePrograms).then((prog) => {
     programs = prog['programs']
     programs.forEach(program => {
+        //affichage des données  
         tnew = tbody.insertRow()
         nom = tnew.insertCell(0)
         nom.innerHTML = program.sName
