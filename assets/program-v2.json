@@ -1,0 +1,30 @@
+{
+    "programs": [
+        {
+            "ID": 2921,
+            "sName": "Programme A",
+            "pieces": [
+                {
+                    "ID": 50278,
+                    "sName": "Nacelle",
+					          "idMaterial" : "1222"
+                },
+                {
+                    "ID": 50279,
+                    "sName": "Hélice",
+					          "idMaterial": "2564"
+                }
+            ]
+        },
+        {
+            "ID": 10018,
+            "sName": "Programme B",
+            "pieces": [
+                {
+                    "ID": 50280,
+                    "sName": "Rotor"
+                }
+            ]
+        }
+    ]
+}

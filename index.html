@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Blank Page - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"></div>
+                    <div class="sidebar-brand-text mx-3"><span>basseti</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                   
+                    <li class="nav-item"><a class="nav-link active" href="programs.html"><i class="fas fa-window-maximize"></i><span>Programmes</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                
+                <div class="container-fluid">
+                    <h3 class="text-dark mb-1">Programmes</h3>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Liste</h4>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Programmes</th>
+                                                    <th>Pièces</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="programs">
+                                               
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © Djebiapsi 2022</span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <div class="modal fade" role="dialog" tabindex="-1" id="details">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Material</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card my-2">
+                            <div class="card-body">
+                                <h4 id="name" class="card-title"></h4>
+                                <div class="table-responsive">
+                                    <table class="table" id="material">
+                                        <thead>
+                                            <tr>
+                                                <th class="col-3">Masse volumique</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="mV_temp">
+                                            <tr id="tempMv">
+                                                <td>Cell 1</td>
+                                                <td>Cell 2</td>
+                                                <td>Cell 3</td>
+                                                <td>Cell 3</td>
+                                            </tr>
+                                            <tr id="mV">
+                                                <td>Cell 3</td>
+                                                <td>Cell 4</td>
+                                                <td>Cell 3</td>
+                                                <td>Cell 3</td>
+                                            </tr>
+                                        </tbody> 
+                                        <thead>
+                                            <tr>
+                                                <th class="col-3">Coefficient Poisson</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="coeffP_temp">
+                                            <tr id="tempCp">
+                                                <td>Cell 3</td>
+                                                <td>Cell 4</td>
+                                                <td>Cell 3</td>
+                                                <td>Cell 3</td>
+                                            </tr>
+                                            <tr id="cp">
+                                                <td>Cell 3</td>
+                                                <td>Cell 4</td>
+                                                <td>Cell 3</td>
+                                                <td>Cell 3</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
